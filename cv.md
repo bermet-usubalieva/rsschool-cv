@@ -18,3 +18,23 @@ I love programming and am ready to devote all day to it. I want my hobby to beco
 * Github
 * Figma/Photoshop (for web development)
 * VSCode
+
+# Code examples
+```
+let deposit = +prompt('Enter the deposit amount');
+let percent = +prompt('Enter annual percentage (unsigned %)');
+let months = +prompt('Enter number of months');
+let result = deposit;
+
+for (let i = 1; i <= months; i++){
+result = result + result * (percent / 100 / 12);
+if (Number.isInteger(result)){
+console.log(`${i} month: ${result}`);
+}else{
+console.log(`${i} month: ${result.toFixed(3)}`);
+}
+}
+let total = result - deposit
+total = (parseInt(total * 100)) / 100
+console.log(`Total income: ${total} `);
+```
