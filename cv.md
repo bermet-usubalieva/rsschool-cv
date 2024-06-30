@@ -44,3 +44,8 @@ console.log(`Total income: ${total} `);
     * website development with HTML, CSS & JAVASCRIPT
 * **Geekbrains**
     * Faculty of Web Development (in progress)
+
+    # Languages
+* Russian: **native speaker** 
+* [British Study Community](https://british-study.kg/): **Pre-Intermediate (CEFR A2), B1 in progress**
+* EPAM English test result: **A2**
