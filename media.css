@@ -1,3 +1,9 @@
+@media all and (max-width: 950px) {
+    code {
+        font-size: 11px;
+    }
+}
+
 @media all and (max-width: 880px) {
     .left_side {
         background: rgb(244, 226, 211);
