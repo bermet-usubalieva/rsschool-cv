@@ -8,4 +8,77 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Lato';
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: 'Merienda';
+    color: rgb(109, 73, 59);
+    font-size: 50px;
+    line-height: 50px;
+    padding-top: 80px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.li__left {
+    margin-bottom: 16px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    color: rgb(165, 87, 59);
+}
+
+.container {
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
+}
+
+.header {
+    background: rgb(193, 155, 135);
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(122, 92, 73);
+}
+
+.nav-list {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-items: center;
 }
