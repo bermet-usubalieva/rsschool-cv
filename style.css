@@ -138,3 +138,23 @@ p {
     background: radial-gradient(circle at 40% -40%, rgb(252, 249, 242) 80%, transparent 80.5%);
     color: rgb(122, 92, 73);
 }
+
+.footer {
+    background: rgb(193, 155, 135);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 75px;
+}
+
+.footer__rs {
+    width: 100px;
+}
+
+.footer__git {
+    font-size: 20px;
+    line-height: 32px;
+}
