@@ -98,3 +98,43 @@ p {
     background: rgb(244, 226, 211);
     padding: 20px 26px 0 26px;
 }
+
+.right_side {
+    width: 50%;
+}
+
+.contact {
+    margin-top: 16px;
+}
+
+.contact,
+.aboutMe,
+.skills,
+.code,
+.projects,
+.education,
+.english {
+    padding-bottom: 24px;
+}
+
+.aboutMe {
+    max-width: 800px;
+    padding-top: 24px;
+}
+
+.aboutMe__title,
+.code__title,
+.projects__title,
+.education__title,
+.english__title {
+    width: 200px;
+    background: radial-gradient(circle at 40% -40%, rgb(244, 226, 211) 80%, transparent 80.5%);
+    color: rgb(122, 92, 73);
+}
+
+.skills__title,
+.contact__title {
+    width: 200px;
+    background: radial-gradient(circle at 40% -40%, rgb(252, 249, 242) 80%, transparent 80.5%);
+    color: rgb(122, 92, 73);
+}
