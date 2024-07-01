@@ -81,7 +81,7 @@ p {
 .nav-list {
     display: grid;
     gap: 30px;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     align-items: center;
     justify-items: center;
 }
@@ -126,7 +126,8 @@ p {
 .code__title,
 .projects__title,
 .education__title,
-.english__title {
+.english__title,
+.code__example {
     width: 200px;
     background: radial-gradient(circle at 40% -40%, rgb(244, 226, 211) 80%, transparent 80.5%);
     color: rgb(122, 92, 73);
