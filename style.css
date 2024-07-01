@@ -85,3 +85,16 @@ p {
     align-items: center;
     justify-items: center;
 }
+
+.main {
+    background: rgb(252, 249, 242);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left_side {
+    background: rgb(244, 226, 211);
+    padding: 20px 26px 0 26px;
+}
