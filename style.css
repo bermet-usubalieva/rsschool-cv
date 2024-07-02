@@ -8,6 +8,10 @@ html {
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(252, 249, 242);
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
