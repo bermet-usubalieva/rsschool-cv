@@ -26,8 +26,10 @@
         </header>
         <main class="main">
             <div class="left_side">
-                <section class="profile" id="profileId">
-                    <img src="img/klipartz.com.png" alt="avatar for cv">
+                <section class="profile">
+                    <div class="profile_img" id="profileId">
+                        <img src="img/klipartz.com.png" alt="avatar for cv">
+                    </div>
                 </section>
                 <section class="contact" id="contacts">
                     <h2 class="contact__title">Contact Info</h2>
@@ -104,7 +106,7 @@ let percent = +prompt('Enter annual percentage (unsigned %)');
 let months = +prompt('Enter number of months');
 let result = deposit;
                 
-for (let i = 1; i <= months; i++){
+for (let i = 1; i = months; i++){
     result = result + result * (percent / 100 / 12);
     if (Number.isInteger(result)){
         console.log(`${i} month: ${result}`);
